@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid';
+    src: url(d10/fontes/idroid.otf) format(opentype);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{ margin: 0;
+background-color: #84E1AD;}
+.cabecalho{ color:white;
+    background-image: linear-gradient(to bottom, #41D983, #1A5B37);
+    padding: 5px 5px 8px 5px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.302);
+}
+.cabecalho > h1{ text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.402);
+}
+.cabecalho > p{text-align: center;
+    max-width: 511px;
+    margin: auto;
+    font-size: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.452);
+}
+menu{
+     
+    padding-left: 10px;
+  text-align: left;
+  margin: 16px 16px 4px 2px;
+}
+menu > a{
+    text-decoration: none;
+margin-right: 10px;
+color:#5ebc87;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);}
+menu> a:hover{ background-color:#5ebc87;
+color:#164d2e;
+padding:6px 4px;
+border-radius: 6px;
+transition: 0.5s;
+transform: scale(0.2);
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.383);}
+main{
+   max-width:770px; 
+   background-color: white;
+   margin:auto;
+   padding: 5px 15px;
+   border-radius: 0px 0px 30px 30px;
+   margin-bottom:20px ;
+   box-shadow: 4px 4px 13px rgba(0, 0, 0, 0.302);
+  
+}
+.historia > h1{
+    font-family: 'idroid', sans-serif;
+    color: #237a47;
+    text-align: left;
+}
+.historia > p{ 
+    font-family:sans-serif;
+    text-align: justify;
+    
+}
+.versao > h1{
+    font-family: 'idroid', sans-serif;
+    color: #237a47;
+    text-align: left;
+    background-image: linear-gradient( to right,#43ff954d, white 90%);
+}
+.versao > p{
+    font-family:sans-serif;
+    text-align: justify;
+}
+
+ .mark{
+    color: #00cd59;
+    text-align: justify;
+ }
+ .link{ 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #164d2e;
+    background-color:#43ff94 ;
+    padding: 1px 1px;
+    text-decoration: none;
+    border-radius: 4px;
+ }
+ .link::after{
+    content: '🔗';
+ }
+section{
+    text-align: center;   
+}
+.fotog{
+    max-width: 100%;
+}
+.novo > h1{font-family:'idroid',sans-serif;
+          color: #237a47;
+          text-align: left;
+          background-image: linear-gradient( to right,#43ff954d, white 90%);
+}
+.novo > p{
+    text-align: justify;
+font-family: sans-serif;}
+article > div{
+ text-align: justify;
+ padding:5px 10px 10px 10px;
+ height: 54px;
+}
+.container{
+    max-width: 760px;
+}
+.div-video{
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+}
+.div-video iframe{ 
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+#list{
+    max-width: 505;
+    background-color: #49f09167;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.302);
+}
+#list > .versoes > h2{
+    font-family:sans-serif;
+    text-align: left;
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: #267549a4;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 4px 0px 7px rgba(0, 0, 0, 0.302) ;
+}
+#list > p{
+    font-family: sans-serif;
+    text-align: justify;
+}
+ul{
+    columns: 2;
+    list-style: inside "\2714\00A0\00A0";
+    text-align: justify;
+}
+aside{
+    font-family: sans-serif;
+    text-align: justify;
+    padding:7px ;
+
+}
+footer{
+    color: white;
+background-color: #164d2e;
+    text-align: center;
+padding: 2px;
+}
+ 

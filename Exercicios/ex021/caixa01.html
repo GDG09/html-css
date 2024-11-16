@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        /*podemos transforma um block-level em um inline-level, como também podemos transforma um inline-level em um block, e em ambos com o inline-block
+         usando a tag "display"*/
+        h1{/* esse é um tipo de block-level*/
+            background-color: lightgrey;
+            height: 300px;
+            width: 300px;
+            /* ordem para o shorthand de border
+            width -> style -> color */
+            border: 10px solid lightslategray;
+
+            /* No shorthand de padding nós podemos simplificar colocando apenas um valor (quando o valor de todos os lados são iguais) 
+            a ordem para o padding é: top(cima) -> right(direita) -> bottom(baixo) -> left(esquerda)
+            quando queremos usar dois valores o shorthand vai ficar como top e bottom "20px"  right left "10px" */
+            padding: 10px;
+        }
+        a{/* ese é um tipo de inline-level*/
+            color: red;
+            border: 10px solid darkred;
+        }
+    </style>
+</head>
+<body>
+<h1>Exemplo de caixa Box-Level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas Inline-Level</a>. vamos vê como tudo isso funciona</p>
+</body>
+</html>

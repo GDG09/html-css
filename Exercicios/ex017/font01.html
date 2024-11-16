@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style> 
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5em;
+    }
+       
+        /*
+        Medidas absolutas 
+        cm, mm, in, px, pt, pc
+
+        Medidas relativas
+        em, ex, rem, vw, vh, %,  
+
+        16px geralmente =1em
+
+        in(polegadas), ( pt, pontos e pc, paicas "geralmente são usados em tipografias expressas em papel" )
+
+        vw (view-width, largura da view-port), vh(view-height, altura da view-port)
+         */
+
+         /* shorthand font
+         - font-style -> font-weight -> font-size -> font-family 
+
+         font-family:  'Courier New', Courier, monospace;
+         font-weight: bolder
+         font-size: 1em
+         font-style: italic
+
+        o shorthand é utilizado para abreviar linhas de codigos 
+         */
+
+    h1{
+        font: italic bolder 2.5em  'Courier New', Courier, monospace;
+    }
+    h2{
+        font:bold 2em
+        'Courier New', Courier, monospace; ;
+    }
+    </style>
+    <!--para saber qual font tem compatibilidade procure por "css web safe font combinatios"-->
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptatum consequuntur reprehenderit. Aspernatur quibusdam ad eius voluptate quo vitae architecto, temporibus, voluptatem omnis non delectus eos odit nulla nemo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores optio dolorem quia, laudantium enim omnis iusto ut nihil unde voluptatibus quo labore sequi cupiditate perspiciatis vel pariatur ducimus totam blanditiis.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deserunt beatae, nulla sequi, aut tempora hic eligendi facere voluptatum quasi assumenda consequatur nam ipsa culpa deleniti dicta quos laborum minus?</p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <link rel="shortcut icon" href="ams.ico" type="image/x-icon">
+</head>
+<body>
+   <h1>Imagens dinamicas</h1>
+   <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+   <picture>
+    <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+     <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imagen-flexivel">
+   </picture>
+   <h1>reproduzindo audios</h1>
+   <p>reproduzindo audios em HTML5</p>
+   <audio preload="metadata"controls>
+    <source src="midia/Bach Cello Suite No. 1, G Major, Prelude - Cooper Cannell.mp3" type="audio/mpeg">
+    <source src="midia/Bach Cello Suite No. 1, G Major, Prelude - Cooper Cannell (online-audio-converter.com).ogg" type="audio/ogg">
+    <p>infelizmente seu navegador não consegue reproduzir áudio <a href="midia/Bach Cello Suite No. 1, G Major, Prelude - Cooper Cannell (online-audio-converter.com).ogg">clique aqui para baixar o arquivo MP3</a></p>
+   </audio>
+
+   <!-- MP3 WAV OGG -->
+    <!-- nas tags de audios é usado as sourcer: src -->
+     <!-- não recomendo usar arquivos WAV já que são arquivos muitos pesados -->
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping html</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gainsboro;
+            margin: 0px;
+        }
+        header{
+            background-color: silver;
+            text-align: center;
+            padding: 10px;
+        }
+        nav > a{ text-decoration: none;
+            color: white;
+    margin-right: 30px;}
+    nav{background-color: rgba(0, 0, 0, 0.734);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.459);}
+        nav > a:hover{ text-decoration: underline;
+        color: rgb(85, 75, 194);}
+
+        main{background-color: white;
+        margin: 15px; 
+        padding:5px;
+    border-radius: 5px 30px ;}
+        article{background-color: rgba(166, 166, 166, 0.867);
+        text-align: justify;
+        padding: 5px;
+         margin: 10px;}
+article > aside{background-color: grey;}
+footer{background-color: black;
+color: white;
+padding: 5px;
+text-align: center;
+margin: 10px;
+}
+p.quarto{padding: 5px;
+/*box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.383); poder ser usado para criar sombra dentro da caixa*/}
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Meu Site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+<p class="quarto">Espotes Política Tecnologia </p>
+        </section>
+        <section id="noticias">
+<article>
+    <h2> Noticias sobre o Brasil</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus eaque expedita delectus eum necessitatibus facere nisi, perferendis fugiat quas numquam facilis. Soluta odit nam minus iusto doloremque dolorum aspernatur vel.</p>
+    <aside>
+        <p>artigo escrito por José da Silva</p>
+    </aside>
+</article>
+        </section>
+    </main>
+    <footer>
+        Site Desenvolvido por AMS
+    </footer>
+    
+</body>
+</html>
