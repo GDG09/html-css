@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação em iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: rgba(216, 118, 5, 0.647);
+            font-weight: bold;
+            font-size: large;
+        }
+        a:hover{
+            color: red;
+            transition:2s;
+        }
+        .clear{
+            color: red;
+            font-size: medium;
+        }
+        .clear:hover{
+            color: rgba(0, 0, 255, 0.429);
+            transition: 1s;
+        }
+        #tela,iframe{
+            width: 95vw;
+            height: 400px;
+            border: 1px solid black;
+            box-shadow: 2px 5px 5px rgba(76, 76, 76, 0.417);
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga soluta qui magni voluptatibus quos veritatis laborum cumque ratione quod reiciendis, aperiam cupiditate consequatur deserunt sequi quasi distinctio deleniti accusantium id.</p>
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame">Terceira página</a></li>
+        <li><a href="paginas-extras/aviso.html" target="frame" class="clear"> Limpar escolha</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores dolorum veritatis facere dolorem quasi commodi praesentium totam vel excepturi! Quisquam libero dicta et mollitia. Ullam temporibus facilis est voluptatem nemo?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam maiores temporibus, quae rem nisi ad quas, nobis repellat dolorem officia modi libero quod eos cum voluptatem optio sint cumque vitae?</p>
+
+    <div id="tela">
+        <iframe name="frame" src="paginas-extras/aviso.html" align="center">
+            <p>Infelizmente seu navegador não é compatível com isso</p>
+        </iframe>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius ab repellat ut nihil tenetur, tempore ducimus quos quisquam debitis, velit a blanditiis qui aut dolorem vitae dicta delectus nostrum!</p>
+    
+</body>
+</html>
