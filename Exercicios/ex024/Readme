@@ -1,2 +1,17 @@
-nessa pasta de ex24 sobre iframe, no caso do "iframe02"
+nessa pasta de ex24 sobre iframe, no caso do "iframe002"
 o uso de tabelas em um iframe onde possuem informções da tebela que esta integrada no iframe, não é muito recomendado pois pode atrapalhar os dispositivos de buscas do google assim dificultando a busca pelo site e ate  na divulgação do mesmo 
+
+no "iframe004" vêmos exemplos de como proteger o iframe de ataques e roubos de dados dos sites colocados dentro do seu iframe 
+    ex:
+        Sandbox="sandbox" --> bloqueia completamente todo o acesso do site externo podendo causar problemas caso necessite de algum serviço do site como por exemplo  dados de senha, cadastro de usuario e etc.
+        Sandbox=" allow-forms" --> permite que o site externo tenha acesso a formularios
+        Sandbox="allow-some-origin" --> permite conteudo da mesma origem, exemplo "se o site for seu proprio e está nas mesmas pastas/ arquivos locais" 
+        sandbox=" allow-script" --> permite que o site possa executar scripts oque pode ser um pouco inseguro dependendo de como o faça
+        Referrerpolicy="no-refferer-when-downgrade" --> valor padrão para a politica de referencia
+        Referrerpolicy="no-refferer" --> dessa forma vc proibe a coleta de dados do usuario no seu site 
+        
+        Dica: para alinhar Divs, iframe, e outros que não esteja conseguindo alinhar, use:
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
