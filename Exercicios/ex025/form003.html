@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        #space{
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu terceiro Formulario</h1>
+    <form action="cadastro.php" autocomplete="on" method="get">
+
+        <div id="space">
+            <label for="iname">Nome completo:</label>
+            <input type="text" name="name" id="iname" required maxlength="30" autocomplete="name">
+        </div>
+        <div id="space">
+            <label for="inumero">Media:</label>
+            <input type="number" name="numero" id="inumero" min="0" max="10" step="0.5" value="5" placeholder="0-10" >
+        </div>
+        <div id="space">
+            <label for="imes">Periodo letivo</label>
+            <input type="month" name="mes" id="imes" value="2020-03">
+        </div>
+        <div id="space">
+            <label for="idate">Dia da prova:</label>
+            <input type="date" name="date" id="idate" value="2025-05-15">
+        </div>
+        <div id="space">
+            <input type="submit" value="enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+    
+</body>
+</html>
