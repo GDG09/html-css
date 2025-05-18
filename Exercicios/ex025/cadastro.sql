@@ -1,0 +1,1 @@
+ainda não aprendir a mexer com SQL
